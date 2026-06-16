@@ -1,224 +1,49 @@
-ranking,seleccion,puntos_elo
-1,Spain,1457
-2,France,1388
-3,Argentina,1363
-4,England,1362
-5,Japan,1350
-6,Mexico,1344
-7,Iran,1338
-8,Portugal,1332
-9,Morocco,1328
-10,Germany,1325
-11,Australia,1317
-12,South Korea,1315
-13,Netherlands,1309
-14,Senegal,1305
-15,United States,1303
-16,Brazil,1291
-17,Uzbekistan,1275
-18,Italy,1270
-19,Croatia,1269
-20,Panama,1268
-21,Egypt,1244
-22,Nigeria,1239
-23,Belgium,1239
-24,Algeria,1233
-25,Ivory Coast,1232
-26,Colombia,1229
-27,Uruguay,1225
-28,Qatar,1222
-29,Switzerland,1222
-30,Turkey,1222
-31,Denmark,1221
-32,Iraq,1218
-33,Saudi Arabia,1218
-34,Canada,1215
-35,New Zealand,1215
-36,Norway,1206
-37,Jordan,1204
-38,Ecuador,1203
-39,Yugoslavia,1196
-40,Scotland,1196
-41,Costa Rica,1193
-42,Cameroon,1170
-43,DR Congo,1169
-44,Russia,1166
-45,United Arab Emirates,1162
-46,Wales,1149
-47,Austria,1149
-48,Honduras,1147
-49,Ukraine,1145
-50,Serbia,1145
-51,Mali,1143
-52,Tunisia,1143
-53,Jamaica,1141
-54,Greece,1141
-55,Paraguay,1137
-56,Hungary,1136
-57,Guatemala,1130
-58,South Africa,1130
-59,Burkina Faso,1121
-60,Czechoslovakia,1120
-61,Haiti,1120
-62,Sweden,1116
-63,Poland,1115
-64,Syria,1114
-65,Czech Republic,1109
-66,Oman,1108
-67,Ghana,1101
-68,Cape Verde,1084
-69,German DR,1079
-70,Slovenia,1077
-71,Curaçao,1076
-72,China,1074
-73,Bahrain,1071
-74,Republic of Ireland,1070
-75,Venezuela,1069
-76,Romania,1068
-77,Peru,1068
-78,Trinidad and Tobago,1066
-79,Kosovo,1061
-80,Palestine,1057
-81,Slovakia,1057
-82,Uganda,1050
-83,Gabon,1048
-84,Zambia,1043
-85,Chile,1041
-86,Angola,1037
-87,Guinea,1036
-88,Bosnia and Herzegovina,1035
-89,Nicaragua,1033
-90,North Macedonia,1031
-91,Tajikistan,1030
-92,New Caledonia,1030
-93,Bolivia,1027
-94,Suriname,1023
-95,Lebanon,1022
-96,Kyrgyzstan,1022
-97,Mozambique,1022
-98,Albania,1021
-99,North Korea,1021
-100,Israel,1014
-101,Puerto Rico,1014
-102,Benin,1014
-103,Georgia,1013
-104,Thailand,1012
-105,Solomon Islands,1009
-106,Guadeloupe,1009
-107,Dominican Republic,1008
-108,Indonesia,1007
-109,Kuwait,1006
-110,Fiji,1006
-111,El Salvador,999
-112,Guyana,998
-113,Comoros,997
-114,Martinique,992
-115,Saarland,990
-116,Equatorial Guinea,987
-117,Gambia,986
-118,Malaysia,984
-119,Tanzania,976
-120,Sierra Leone,975
-121,Niger,972
-122,Libya,971
-123,Kenya,968
-124,Turkmenistan,967
-125,Tahiti,966
-126,Vanuatu,964
-127,Samoa,963
-128,Finland,962
-129,Sudan,959
-130,Iceland,959
-131,Madagascar,956
-132,Vietnam,953
-133,Northern Ireland,952
-134,Saint Martin,951
-135,Papua New Guinea,951
-136,Cuba,948
-137,Liberia,947
-138,Togo,944
-139,Mauritania,944
-140,Sint Maarten,944
-141,Yemen DPR,942
-142,Namibia,940
-143,Malawi,938
-144,French Guiana,938
-145,Rwanda,935
-146,Zimbabwe,934
-147,Guinea-Bissau,929
-148,Bermuda,926
-149,Saint Kitts and Nevis,924
-150,Montenegro,921
-151,Saint Lucia,920
-152,Bonaire,916
-153,Grenada,913
-154,Tonga,912
-155,Vietnam Republic,911
-156,Singapore,910
-157,Bulgaria,909
-158,Saint Vincent and the Grenadines,907
-159,American Samoa,907
-160,Congo,903
-161,Philippines,902
-162,Ethiopia,902
-163,Botswana,896
-164,Yemen,896
-165,Belize,891
-166,Lesotho,890
-167,Burundi,889
-168,Hong Kong,888
-169,Eritrea,878
-170,Kazakhstan,876
-171,Belarus,872
-172,Armenia,871
-173,Montserrat,870
-174,Myanmar,864
-175,Central African Republic,862
-176,India,855
-177,Cook Islands,853
-178,Afghanistan,839
-179,South Sudan,836
-180,Dominica,827
-181,Mongolia,827
-182,Luxembourg,824
-183,Aruba,823
-184,Antigua and Barbuda,822
-185,Barbados,821
-186,Cayman Islands,821
-187,Eswatini,818
-188,Chad,814
-189,Faroe Islands,811
-190,Bahamas,804
-191,Cyprus,800
-192,Turks and Caicos Islands,794
-193,Azerbaijan,789
-194,Estonia,786
-195,Somalia,779
-196,Brunei,770
-197,Latvia,764
-198,Bhutan,764
-199,Bangladesh,762
-200,Moldova,761
-201,São Tomé and Príncipe,756
-202,Maldives,753
-203,Mauritius,752
-204,Guam,746
-205,Cambodia,745
-206,Laos,741
-207,Sri Lanka,739
-208,Lithuania,738
-209,British Virgin Islands,733
-210,Djibouti,725
-211,United States Virgin Islands,721
-212,Anguilla,716
-213,Timor-Leste,711
-214,Nepal,711
-215,Malta,702
-216,Pakistan,683
-217,Seychelles,677
-218,Taiwan,675
-219,Macau,656
-220,Gibraltar,607
-221,Andorra,585
-222,Liechtenstein,516
-223,San Marino,447
+seleccion,elo,confederacion,bandera,posicion
+Argentina,1511,CONMEBOL,🇦🇷,1
+Spain,1488,UEFA,🇪🇸,2
+France,1443,UEFA,🇫🇷,3
+Brazil,1415,CONMEBOL,🇧🇷,4
+Portugal,1411,UEFA,🇵🇹,5
+England,1402,UEFA,🏴󠁧󠁢󠁥󠁮󠁧󠁿,6
+Germany,1402,UEFA,🇩🇪,7
+Colombia,1398,CONMEBOL,🇨🇴,8
+Morocco,1397,CAF,🇲🇦,9
+Japan,1392,AFC,🇯🇵,10
+Netherlands,1375,UEFA,🇳🇱,11
+Mexico,1358,CONCACAF,🇲🇽,12
+Italy,1345,UEFA,🏳️,13
+Ecuador,1342,CONMEBOL,🇪🇨,14
+Belgium,1335,UEFA,🇧🇪,15
+Algeria,1322,CAF,🇩🇿,16
+South Korea,1321,AFC,🇰🇷,17
+Uruguay,1315,CONMEBOL,🇺🇾,18
+Iran,1311,AFC,🇮🇷,19
+Denmark,1307,UEFA,🇩🇰,20
+Senegal,1307,CAF,🇸🇳,21
+Turkey,1303,UEFA,🇹🇷,22
+United States,1302,CONCACAF,🇺🇸,23
+Australia,1301,AFC,🇦🇺,24
+Switzerland,1297,UEFA,🇨🇭,25
+Canada,1285,CONCACAF,🇨🇦,26
+Ivory Coast,1279,CAF,🇨🇮,27
+Nigeria,1249,CAF,🇳🇬,28
+Uzbekistan,1243,AFC,🇺🇿,29
+Sweden,1214,UEFA,🇸🇪,30
+Panama,1212,CONCACAF,🇵🇦,31
+Venezuela,1212,CONMEBOL,🇻🇪,32
+Czech Republic,1212,UEFA,🇨🇿,33
+Chile,1210,CONMEBOL,🇨🇱,34
+Iraq,1199,AFC,🇮🇶,35
+Greece,1186,UEFA,🇬🇷,36
+Jordan,1172,AFC,🇯🇴,37
+Saudi Arabia,1162,AFC,🇸🇦,38
+Peru,1162,CONMEBOL,🇵🇪,39
+Cameroon,1160,CAF,🇨🇲,40
+South Africa,1132,CAF,🇿🇦,41
+New Zealand,1117,OFC,🇳🇿,42
+Romania,1111,UEFA,🇷🇴,43
+Bolivia,1096,CONMEBOL,🇧🇴,44
+Guatemala,1071,CONCACAF,🇬🇹,45
+Ghana,1062,CAF,🇬🇭,46
+Kuwait,1002,AFC,🇰🇼,47
+Azerbaijan,890,UEFA,🇦🇿,48

@@ -1,0 +1,519 @@
+/* ════════════════════════════════════════════════════════════════
+   FUCHIBOL26 · ESTILOS GLOBALES
+   
+   Organización:
+   1. Variables CSS (colores, radios, etc.)
+   2. Reset y body
+   3. Navegación
+   4. Layout y páginas
+   5. Cards
+   6. Hero
+   7. Login
+   8. Partidos / Quiniela
+   9. Tabs
+   10. Tabla ELO
+   11. Predicciones
+   12. Simulación
+   13. Utilidades
+   14. Responsive (mobile)
+════════════════════════════════════════════════════════════════ */
+
+/* ── 1. VARIABLES ──────────────────────────────────────────────── */
+:root {
+  --verde: #1a6b3c;
+  --verde-claro: #e8f5ee;
+  --dorado: #c8a415;
+  --dorado-claro: #fdf6dc;
+  --gris: #f5f5f3;
+  --borde: #e0ddd6;
+  --texto: #1a1a1a;
+  --texto-suave: #666;
+  --fondo: #f0ede6;
+  --card-bg: white;
+  --input-bg: white;
+  --tab-active-bg: white;
+  --radio: 10px;
+  --radio-sm: 6px;
+}
+
+/* Variables para modo oscuro */
+body.dark {
+  --verde: #2ecc71;
+  --verde-claro: #0d2b1a;
+  --dorado: #f0c040;
+  --dorado-claro: #2a2000;
+  --gris: #1e1e1e;
+  --borde: #333;
+  --texto: #f0f0f0;
+  --texto-suave: #999;
+  --fondo: #111;
+  --card-bg: #1a1a1a;
+  --input-bg: #222;
+  --tab-active-bg: #2a2a2a;
+}
+
+/* ── 2. RESET Y BODY ──────────────────────────────────────────── */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--fondo);
+  color: var(--texto);
+  min-height: 100vh;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* ── 3. NAVEGACIÓN ────────────────────────────────────────────── */
+nav {
+  background: var(--verde);
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.nav-logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: -0.3px;
+  padding: 1rem 0;
+  white-space: nowrap;
+}
+
+.nav-logo span { color: var(--dorado); }
+
+.nav-links { display: flex; gap: 0; flex: 1; }
+
+.nav-link {
+  padding: 1rem 1rem;
+  font-size: 13px;
+  color: rgba(255,255,255,0.75);
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.nav-link:hover { color: white; }
+.nav-link.active { color: white; border-bottom-color: var(--dorado); }
+
+.nav-user {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-badge {
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+}
+
+.user-badge:hover { background: rgba(255,255,255,0.25); }
+
+/* Badge de última actualización */
+.actualizacion-badge {
+  font-size: 11px;
+  color: rgba(255,255,255,0.6);
+  white-space: nowrap;
+}
+
+.theme-toggle {
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  line-height: 1;
+  transition: background 0.15s;
+}
+
+.theme-toggle:hover { background: rgba(255,255,255,0.25); }
+
+/* ── 4. LAYOUT Y PÁGINAS ──────────────────────────────────────── */
+.page {
+  display: none;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.page.active { display: block; }
+
+/* ── 5. CARDS ─────────────────────────────────────────────────── */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.card-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--texto-suave);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+/* ── 6. HERO ──────────────────────────────────────────────────── */
+.hero {
+  background: var(--verde);
+  border-radius: var(--radio);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.hero h2 { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+.hero p { font-size: 14px; color: rgba(255,255,255,0.75); }
+.hero-stat { text-align: right; }
+.hero-stat .num { font-size: 32px; font-weight: 700; color: var(--dorado); line-height: 1; }
+.hero-stat .lbl { font-size: 12px; color: rgba(255,255,255,0.65); margin-top: 2px; }
+
+/* ── 7. LOGIN ─────────────────────────────────────────────────── */
+#login-screen {
+  position: fixed;
+  inset: 0;
+  background: var(--fondo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+
+.login-box {
+  background: var(--card-bg);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: 2rem;
+  width: 340px;
+  text-align: center;
+}
+
+.login-box h1 { font-size: 24px; color: var(--verde); margin-bottom: 4px; }
+.login-box h1 span { color: var(--dorado); }
+.login-box p { font-size: 13px; color: var(--texto-suave); margin-bottom: 1.5rem; }
+
+.login-box input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid var(--borde);
+  border-radius: var(--radio-sm);
+  font-size: 15px;
+  margin-bottom: 10px;
+  outline: none;
+  background: var(--input-bg);
+  color: var(--texto);
+}
+
+.login-box input:focus { border-color: var(--verde); }
+
+/* ── 8. PARTIDOS / QUINIELA ───────────────────────────────────── */
+.partido {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--gris);
+}
+
+.partido:last-child { border-bottom: none; }
+
+.equipo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.equipo.visitante { flex-direction: row-reverse; }
+
+.bandera { font-size: 22px; }
+
+.vs-box { text-align: center; }
+.vs-label { font-size: 11px; color: var(--texto-suave); margin-bottom: 4px; }
+
+.score-inputs { display: flex; align-items: center; gap: 6px; }
+
+.score-input {
+  width: 36px;
+  height: 36px;
+  border: 1.5px solid var(--borde);
+  border-radius: var(--radio-sm);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  background: var(--input-bg);
+  color: var(--texto);
+}
+
+.score-input:focus { border-color: var(--verde); }
+.score-sep { font-size: 16px; font-weight: 600; color: var(--texto-suave); }
+
+/* Resultado real (partidos ya jugados) */
+.resultado-real {
+  background: var(--verde-claro);
+  color: var(--verde);
+  border-radius: var(--radio-sm);
+  padding: 4px 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.grupo-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--texto-suave);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 10px 0 4px;
+  border-top: 1px solid var(--gris);
+  margin-top: 4px;
+}
+
+/* Ranking quiniela */
+.ranking-quiniela .jugador {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--gris);
+}
+
+.ranking-quiniela .jugador:last-child { border-bottom: none; }
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--verde-claro);
+  color: var(--verde);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.jugador-info { flex: 1; }
+.jugador-nombre { font-size: 14px; font-weight: 600; color: var(--texto); }
+.jugador-pts { font-size: 12px; color: var(--texto-suave); }
+
+.pts-badge {
+  background: var(--dorado-claro);
+  color: var(--dorado);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+/* ── 9. TABS ──────────────────────────────────────────────────── */
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 1rem;
+  background: var(--gris);
+  border-radius: var(--radio-sm);
+  padding: 4px;
+  flex-wrap: wrap;
+}
+
+.tab {
+  flex: 1;
+  padding: 7px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--texto-suave);
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.tab.active {
+  background: var(--tab-active-bg);
+  color: var(--texto);
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+/* ── 10. TABLA ELO ────────────────────────────────────────────── */
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+
+th {
+  text-align: left;
+  padding: 8px 10px;
+  color: var(--texto-suave);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 2px solid var(--gris);
+}
+
+td { padding: 9px 10px; border-bottom: 1px solid var(--gris); color: var(--texto); }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(--gris); }
+
+.pos { font-weight: 700; color: var(--texto-suave); width: 28px; }
+.pos.top { color: var(--dorado); }
+
+.elo-bar { background: var(--gris); border-radius: 3px; height: 6px; overflow: hidden; margin-top: 3px; }
+.elo-fill { background: var(--verde); height: 100%; border-radius: 3px; }
+
+/* ── 11. PREDICCIONES ─────────────────────────────────────────── */
+.pred-partido {
+  border: 1px solid var(--borde);
+  border-radius: var(--radio-sm);
+  padding: 14px;
+  margin-bottom: 10px;
+}
+
+.pred-equipos {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 10px;
+}
+
+.pred-equipo { font-size: 14px; font-weight: 600; }
+.pred-equipo.right { text-align: right; }
+
+.pred-centro { text-align: center; }
+.marcador-probable {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--verde);
+}
+
+.prob-bar {
+  display: flex;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.prob-local { background: var(--verde); }
+.prob-empate { background: var(--dorado); }
+.prob-visit { background: #d44; }
+
+.prob-numeros {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 6px;
+  color: var(--texto-suave);
+}
+
+/* ── 12. SIMULACIÓN ───────────────────────────────────────────── */
+.campeon-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--gris);
+}
+
+.campeon-item:last-child { border-bottom: none; }
+
+.campeon-barra-wrap { flex: 1; }
+
+.campeon-barra {
+  background: var(--gris);
+  border-radius: 3px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.campeon-fill { background: var(--verde); height: 100%; border-radius: 3px; }
+
+.campeon-pct {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--verde);
+  min-width: 44px;
+  text-align: right;
+}
+
+/* ── 13. UTILIDADES ───────────────────────────────────────────── */
+.btn-verde {
+  background: var(--verde);
+  color: white;
+  border: none;
+  border-radius: var(--radio-sm);
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-verde:hover { opacity: 0.9; }
+
+.btn-guardar {
+  background: var(--verde);
+  color: white;
+  border: none;
+  border-radius: var(--radio-sm);
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn-guardar:hover { opacity: 0.9; }
+
+.save-msg { font-size: 13px; color: var(--verde); margin-top: 8px; display: none; }
+
+select {
+  padding: 8px 12px;
+  border: 1px solid var(--borde);
+  border-radius: var(--radio-sm);
+  font-size: 14px;
+  background: var(--input-bg);
+  color: var(--texto);
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+}
+
+.cargando { color: var(--texto-suave); font-size: 14px; padding: 1rem 0; }
+.error-msg { color: #d44; font-size: 14px; padding: 1rem 0; }
+
+/* ── 14. RESPONSIVE ───────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .hero { flex-direction: column; text-align: center; }
+  .hero-stat { text-align: center; }
+  .nav-links { overflow-x: auto; }
+  .partido { font-size: 13px; }
+  .nav-logo { font-size: 15px; }
+  .actualizacion-badge { display: none; }
+  .pred-equipos { gap: 0.5rem; }
+}

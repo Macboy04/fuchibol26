@@ -1,0 +1,338 @@
+[
+  {
+    "seleccion": "Argentina",
+    "elo": 1511,
+    "confederacion": "CONMEBOL",
+    "bandera": "🇦🇷",
+    "posicion": 1
+  },
+  {
+    "seleccion": "Spain",
+    "elo": 1488,
+    "confederacion": "UEFA",
+    "bandera": "🇪🇸",
+    "posicion": 2
+  },
+  {
+    "seleccion": "France",
+    "elo": 1443,
+    "confederacion": "UEFA",
+    "bandera": "🇫🇷",
+    "posicion": 3
+  },
+  {
+    "seleccion": "Brazil",
+    "elo": 1415,
+    "confederacion": "CONMEBOL",
+    "bandera": "🇧🇷",
+    "posicion": 4
+  },
+  {
+    "seleccion": "Portugal",
+    "elo": 1411,
+    "confederacion": "UEFA",
+    "bandera": "🇵🇹",
+    "posicion": 5
+  },
+  {
+    "seleccion": "England",
+    "elo": 1402,
+    "confederacion": "UEFA",
+    "bandera": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "posicion": 6
+  },
+  {
+    "seleccion": "Germany",
+    "elo": 1402,
+    "confederacion": "UEFA",
+    "bandera": "🇩🇪",
+    "posicion": 7
+  },
+  {
+    "seleccion": "Colombia",
+    "elo": 1398,
+    "confederacion": "CONMEBOL",
+    "bandera": "🇨🇴",
+    "posicion": 8
+  },
+  {
+    "seleccion": "Morocco",
+    "elo": 1397,
+    "confederacion": "CAF",
+    "bandera": "🇲🇦",
+    "posicion": 9
+  },
+  {
+    "seleccion": "Japan",
+    "elo": 1392,
+    "confederacion": "AFC",
+    "bandera": "🇯🇵",
+    "posicion": 10
+  },
+  {
+    "seleccion": "Netherlands",
+    "elo": 1375,
+    "confederacion": "UEFA",
+    "bandera": "🇳🇱",
+    "posicion": 11
+  },
+  {
+    "seleccion": "Mexico",
+    "elo": 1358,
+    "confederacion": "CONCACAF",
+    "bandera": "🇲🇽",
+    "posicion": 12
+  },
+  {
+    "seleccion": "Italy",
+    "elo": 1345,
+    "confederacion": "UEFA",
+    "bandera": "🏳️",
+    "posicion": 13
+  },
+  {
+    "seleccion": "Ecuador",
+    "elo": 1342,
+    "confederacion": "CONMEBOL",
+    "bandera": "🇪🇨",
+    "posicion": 14
+  },
+  {
+    "seleccion": "Belgium",
+    "elo": 1335,
+    "confederacion": "UEFA",
+    "bandera": "🇧🇪",
+    "posicion": 15
+  },
+  {
+    "seleccion": "Algeria",
+    "elo": 1322,
+    "confederacion": "CAF",
+    "bandera": "🇩🇿",
+    "posicion": 16
+  },
+  {
+    "seleccion": "South Korea",
+    "elo": 1321,
+    "confederacion": "AFC",
+    "bandera": "🇰🇷",
+    "posicion": 17
+  },
+  {
+    "seleccion": "Uruguay",
+    "elo": 1315,
+    "confederacion": "CONMEBOL",
+    "bandera": "🇺🇾",
+    "posicion": 18
+  },
+  {
+    "seleccion": "Iran",
+    "elo": 1311,
+    "confederacion": "AFC",
+    "bandera": "🇮🇷",
+    "posicion": 19
+  },
+  {
+    "seleccion": "Denmark",
+    "elo": 1307,
+    "confederacion": "UEFA",
+    "bandera": "🇩🇰",
+    "posicion": 20
+  },
+  {
+    "seleccion": "Senegal",
+    "elo": 1307,
+    "confederacion": "CAF",
+    "bandera": "🇸🇳",
+    "posicion": 21
+  },
+  {
+    "seleccion": "Turkey",
+    "elo": 1303,
+    "confederacion": "UEFA",
+    "bandera": "🇹🇷",
+    "posicion": 22
+  },
+  {
+    "seleccion": "United States",
+    "elo": 1302,
+    "confederacion": "CONCACAF",
+    "bandera": "🇺🇸",
+    "posicion": 23
+  },
+  {
+    "seleccion": "Australia",
+    "elo": 1301,
+    "confederacion": "AFC",
+    "bandera": "🇦🇺",
+    "posicion": 24
+  },
+  {
+    "seleccion": "Switzerland",
+    "elo": 1297,
+    "confederacion": "UEFA",
+    "bandera": "🇨🇭",
+    "posicion": 25
+  },
+  {
+    "seleccion": "Canada",
+    "elo": 1285,
+    "confederacion": "CONCACAF",
+    "bandera": "🇨🇦",
+    "posicion": 26
+  },
+  {
+    "seleccion": "Ivory Coast",
+    "elo": 1279,
+    "confederacion": "CAF",
+    "bandera": "🇨🇮",
+    "posicion": 27
+  },
+  {
+    "seleccion": "Nigeria",
+    "elo": 1249,
+    "confederacion": "CAF",
+    "bandera": "🇳🇬",
+    "posicion": 28
+  },
+  {
+    "seleccion": "Uzbekistan",
+    "elo": 1243,
+    "confederacion": "AFC",
+    "bandera": "🇺🇿",
+    "posicion": 29
+  },
+  {
+    "seleccion": "Sweden",
+    "elo": 1214,
+    "confederacion": "UEFA",
+    "bandera": "🇸🇪",
+    "posicion": 30
+  },
+  {
+    "seleccion": "Panama",
+    "elo": 1212,
+    "confederacion": "CONCACAF",
+    "bandera": "🇵🇦",
+    "posicion": 31
+  },
+  {
+    "seleccion": "Venezuela",
+    "elo": 1212,
+    "confederacion": "CONMEBOL",
+    "bandera": "🇻🇪",
+    "posicion": 32
+  },
+  {
+    "seleccion": "Czech Republic",
+    "elo": 1212,
+    "confederacion": "UEFA",
+    "bandera": "🇨🇿",
+    "posicion": 33
+  },
+  {
+    "seleccion": "Chile",
+    "elo": 1210,
+    "confederacion": "CONMEBOL",
+    "bandera": "🇨🇱",
+    "posicion": 34
+  },
+  {
+    "seleccion": "Iraq",
+    "elo": 1199,
+    "confederacion": "AFC",
+    "bandera": "🇮🇶",
+    "posicion": 35
+  },
+  {
+    "seleccion": "Greece",
+    "elo": 1186,
+    "confederacion": "UEFA",
+    "bandera": "🇬🇷",
+    "posicion": 36
+  },
+  {
+    "seleccion": "Jordan",
+    "elo": 1172,
+    "confederacion": "AFC",
+    "bandera": "🇯🇴",
+    "posicion": 37
+  },
+  {
+    "seleccion": "Saudi Arabia",
+    "elo": 1162,
+    "confederacion": "AFC",
+    "bandera": "🇸🇦",
+    "posicion": 38
+  },
+  {
+    "seleccion": "Peru",
+    "elo": 1162,
+    "confederacion": "CONMEBOL",
+    "bandera": "🇵🇪",
+    "posicion": 39
+  },
+  {
+    "seleccion": "Cameroon",
+    "elo": 1160,
+    "confederacion": "CAF",
+    "bandera": "🇨🇲",
+    "posicion": 40
+  },
+  {
+    "seleccion": "South Africa",
+    "elo": 1132,
+    "confederacion": "CAF",
+    "bandera": "🇿🇦",
+    "posicion": 41
+  },
+  {
+    "seleccion": "New Zealand",
+    "elo": 1117,
+    "confederacion": "OFC",
+    "bandera": "🇳🇿",
+    "posicion": 42
+  },
+  {
+    "seleccion": "Romania",
+    "elo": 1111,
+    "confederacion": "UEFA",
+    "bandera": "🇷🇴",
+    "posicion": 43
+  },
+  {
+    "seleccion": "Bolivia",
+    "elo": 1096,
+    "confederacion": "CONMEBOL",
+    "bandera": "🇧🇴",
+    "posicion": 44
+  },
+  {
+    "seleccion": "Guatemala",
+    "elo": 1071,
+    "confederacion": "CONCACAF",
+    "bandera": "🇬🇹",
+    "posicion": 45
+  },
+  {
+    "seleccion": "Ghana",
+    "elo": 1062,
+    "confederacion": "CAF",
+    "bandera": "🇬🇭",
+    "posicion": 46
+  },
+  {
+    "seleccion": "Kuwait",
+    "elo": 1002,
+    "confederacion": "AFC",
+    "bandera": "🇰🇼",
+    "posicion": 47
+  },
+  {
+    "seleccion": "Azerbaijan",
+    "elo": 890,
+    "confederacion": "UEFA",
+    "bandera": "🇦🇿",
+    "posicion": 48
+  }
+]
