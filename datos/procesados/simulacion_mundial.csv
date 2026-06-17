@@ -1,45 +1,46 @@
 seleccion,victorias,probabilidad_campeon,elo,bandera
-Brazil,92,9.2,1415,🇧🇷
-Spain,72,7.2,1488,🇪🇸
-Argentina,70,7.0,1511,🇦🇷
-Iran,67,6.7,1311,🇮🇷
-England,66,6.6,1402,🏴󠁧󠁢󠁥󠁮󠁧󠁿
-Belgium,50,5.0,1335,🇧🇪
-Netherlands,49,4.9,1375,🇳🇱
-Morocco,38,3.8,1397,🇲🇦
-France,37,3.7,1443,🇫🇷
-Portugal,34,3.4,1411,🇵🇹
-Senegal,30,3.0,1307,🇸🇳
+Brazil,79,7.9,1415,🇧🇷
+Spain,76,7.6,1488,🇪🇸
+Argentina,63,6.3,1511,🇦🇷
+Iran,61,6.1,1311,🇮🇷
+England,57,5.7,1402,🏴󠁧󠁢󠁥󠁮󠁧󠁿
+Portugal,55,5.5,1411,🇵🇹
+Morocco,48,4.8,1397,🇲🇦
+Netherlands,44,4.4,1375,🇳🇱
+Belgium,37,3.7,1335,🇧🇪
+France,36,3.6,1443,🇫🇷
+Algeria,30,3.0,1322,🇩🇿
+Senegal,29,2.9,1307,🇸🇳
 Japan,28,2.8,1392,🇯🇵
-Germany,27,2.7,1402,🇩🇪
-Australia,27,2.7,1301,🇦🇺
-Algeria,22,2.2,1322,🇩🇿
-Colombia,19,1.9,1398,🇨🇴
-Romania,18,1.8,1111,🇷🇴
-Canada,17,1.7,1285,🇨🇦
-Ivory Coast,17,1.7,1279,🇨🇮
-Uruguay,17,1.7,1315,🇺🇾
-South Africa,16,1.6,1132,🇿🇦
-Switzerland,15,1.5,1297,🇨🇭
-Mexico,14,1.4,1358,🇲🇽
-Nigeria,14,1.4,1249,🇳🇬
-United States,13,1.3,1302,🇺🇸
-Denmark,13,1.3,1307,🇩🇰
-Czech Republic,13,1.3,1212,🇨🇿
-Cameroon,12,1.2,1160,🇨🇲
-Uzbekistan,11,1.1,1243,🇺🇿
-South Korea,10,1.0,1321,🇰🇷
-Sweden,10,1.0,1214,🇸🇪
+South Korea,24,2.4,1321,🇰🇷
+South Africa,21,2.1,1132,🇿🇦
+Romania,21,2.1,1111,🇷🇴
+Germany,20,2.0,1402,🇩🇪
+Australia,19,1.9,1301,🇦🇺
+Mexico,19,1.9,1358,🇲🇽
+Uzbekistan,18,1.8,1243,🇺🇿
+Colombia,17,1.7,1398,🇨🇴
+Ghana,16,1.6,1062,🇬🇭
+Ivory Coast,16,1.6,1279,🇨🇮
+United States,16,1.6,1302,🇺🇸
+Denmark,15,1.5,1307,🇩🇰
+Nigeria,15,1.5,1249,🇳🇬
+Cameroon,13,1.3,1160,🇨🇲
+Switzerland,13,1.3,1297,🇨🇭
+Canada,12,1.2,1285,🇨🇦
+Czech Republic,9,0.9,1212,🇨🇿
+Uruguay,8,0.8,1315,🇺🇾
 Jordan,8,0.8,1172,🇯🇴
-Greece,8,0.8,1186,🇬🇷
-Chile,7,0.7,1210,🇨🇱
-Ghana,6,0.6,1062,🇬🇭
+Sweden,8,0.8,1214,🇸🇪
+Greece,7,0.7,1186,🇬🇷
+Guatemala,6,0.6,1071,🇬🇹
+Saudi Arabia,5,0.5,1162,🇸🇦
+Turkey,5,0.5,1303,🇹🇷
 Iraq,5,0.5,1199,🇮🇶
-Guatemala,5,0.5,1071,🇬🇹
-Kuwait,5,0.5,1002,🇰🇼
-Venezuela,4,0.4,1212,🇻🇪
-Turkey,3,0.3,1303,🇹🇷
-New Zealand,3,0.3,1117,🇳🇿
-Peru,3,0.3,1162,🇵🇪
-Saudi Arabia,3,0.3,1162,🇸🇦
+Peru,4,0.4,1162,🇵🇪
+Ecuador,4,0.4,1342,🇪🇨
+New Zealand,4,0.4,1117,🇳🇿
+Kuwait,3,0.3,1002,🇰🇼
 Panama,2,0.2,1212,🇵🇦
+Venezuela,2,0.2,1212,🇻🇪
+Chile,2,0.2,1210,🇨🇱

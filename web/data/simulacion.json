@@ -1,78 +1,85 @@
 [
   {
     "seleccion": "Brazil",
-    "victorias": 92,
-    "probabilidad_campeon": 9.2,
+    "victorias": 79,
+    "probabilidad_campeon": 7.9,
     "elo": 1415,
     "bandera": "🇧🇷"
   },
   {
     "seleccion": "Spain",
-    "victorias": 72,
-    "probabilidad_campeon": 7.2,
+    "victorias": 76,
+    "probabilidad_campeon": 7.6,
     "elo": 1488,
     "bandera": "🇪🇸"
   },
   {
     "seleccion": "Argentina",
-    "victorias": 70,
-    "probabilidad_campeon": 7.0,
+    "victorias": 63,
+    "probabilidad_campeon": 6.3,
     "elo": 1511,
     "bandera": "🇦🇷"
   },
   {
     "seleccion": "Iran",
-    "victorias": 67,
-    "probabilidad_campeon": 6.7,
+    "victorias": 61,
+    "probabilidad_campeon": 6.1,
     "elo": 1311,
     "bandera": "🇮🇷"
   },
   {
     "seleccion": "England",
-    "victorias": 66,
-    "probabilidad_campeon": 6.6,
+    "victorias": 57,
+    "probabilidad_campeon": 5.7,
     "elo": 1402,
     "bandera": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
   },
   {
-    "seleccion": "Belgium",
-    "victorias": 50,
-    "probabilidad_campeon": 5.0,
-    "elo": 1335,
-    "bandera": "🇧🇪"
-  },
-  {
-    "seleccion": "Netherlands",
-    "victorias": 49,
-    "probabilidad_campeon": 4.9,
-    "elo": 1375,
-    "bandera": "🇳🇱"
-  },
-  {
-    "seleccion": "Morocco",
-    "victorias": 38,
-    "probabilidad_campeon": 3.8,
-    "elo": 1397,
-    "bandera": "🇲🇦"
-  },
-  {
-    "seleccion": "France",
-    "victorias": 37,
-    "probabilidad_campeon": 3.7,
-    "elo": 1443,
-    "bandera": "🇫🇷"
-  },
-  {
     "seleccion": "Portugal",
-    "victorias": 34,
-    "probabilidad_campeon": 3.4,
+    "victorias": 55,
+    "probabilidad_campeon": 5.5,
     "elo": 1411,
     "bandera": "🇵🇹"
   },
   {
-    "seleccion": "Senegal",
+    "seleccion": "Morocco",
+    "victorias": 48,
+    "probabilidad_campeon": 4.8,
+    "elo": 1397,
+    "bandera": "🇲🇦"
+  },
+  {
+    "seleccion": "Netherlands",
+    "victorias": 44,
+    "probabilidad_campeon": 4.4,
+    "elo": 1375,
+    "bandera": "🇳🇱"
+  },
+  {
+    "seleccion": "Belgium",
+    "victorias": 37,
+    "probabilidad_campeon": 3.7,
+    "elo": 1335,
+    "bandera": "🇧🇪"
+  },
+  {
+    "seleccion": "France",
+    "victorias": 36,
+    "probabilidad_campeon": 3.6,
+    "elo": 1443,
+    "bandera": "🇫🇷"
+  },
+  {
+    "seleccion": "Algeria",
     "victorias": 30,
     "probabilidad_campeon": 3.0,
+    "elo": 1322,
+    "bandera": "🇩🇿"
+  },
+  {
+    "seleccion": "Senegal",
+    "victorias": 29,
+    "probabilidad_campeon": 2.9,
     "elo": 1307,
     "bandera": "🇸🇳"
   },
@@ -84,137 +91,130 @@
     "bandera": "🇯🇵"
   },
   {
+    "seleccion": "South Korea",
+    "victorias": 24,
+    "probabilidad_campeon": 2.4,
+    "elo": 1321,
+    "bandera": "🇰🇷"
+  },
+  {
+    "seleccion": "South Africa",
+    "victorias": 21,
+    "probabilidad_campeon": 2.1,
+    "elo": 1132,
+    "bandera": "🇿🇦"
+  },
+  {
+    "seleccion": "Romania",
+    "victorias": 21,
+    "probabilidad_campeon": 2.1,
+    "elo": 1111,
+    "bandera": "🇷🇴"
+  },
+  {
     "seleccion": "Germany",
-    "victorias": 27,
-    "probabilidad_campeon": 2.7,
+    "victorias": 20,
+    "probabilidad_campeon": 2.0,
     "elo": 1402,
     "bandera": "🇩🇪"
   },
   {
     "seleccion": "Australia",
-    "victorias": 27,
-    "probabilidad_campeon": 2.7,
+    "victorias": 19,
+    "probabilidad_campeon": 1.9,
     "elo": 1301,
     "bandera": "🇦🇺"
   },
   {
-    "seleccion": "Algeria",
-    "victorias": 22,
-    "probabilidad_campeon": 2.2,
-    "elo": 1322,
-    "bandera": "🇩🇿"
-  },
-  {
-    "seleccion": "Colombia",
+    "seleccion": "Mexico",
     "victorias": 19,
     "probabilidad_campeon": 1.9,
-    "elo": 1398,
-    "bandera": "🇨🇴"
-  },
-  {
-    "seleccion": "Romania",
-    "victorias": 18,
-    "probabilidad_campeon": 1.8,
-    "elo": 1111,
-    "bandera": "🇷🇴"
-  },
-  {
-    "seleccion": "Canada",
-    "victorias": 17,
-    "probabilidad_campeon": 1.7,
-    "elo": 1285,
-    "bandera": "🇨🇦"
-  },
-  {
-    "seleccion": "Ivory Coast",
-    "victorias": 17,
-    "probabilidad_campeon": 1.7,
-    "elo": 1279,
-    "bandera": "🇨🇮"
-  },
-  {
-    "seleccion": "Uruguay",
-    "victorias": 17,
-    "probabilidad_campeon": 1.7,
-    "elo": 1315,
-    "bandera": "🇺🇾"
-  },
-  {
-    "seleccion": "South Africa",
-    "victorias": 16,
-    "probabilidad_campeon": 1.6,
-    "elo": 1132,
-    "bandera": "🇿🇦"
-  },
-  {
-    "seleccion": "Switzerland",
-    "victorias": 15,
-    "probabilidad_campeon": 1.5,
-    "elo": 1297,
-    "bandera": "🇨🇭"
-  },
-  {
-    "seleccion": "Mexico",
-    "victorias": 14,
-    "probabilidad_campeon": 1.4,
     "elo": 1358,
     "bandera": "🇲🇽"
   },
   {
-    "seleccion": "Nigeria",
-    "victorias": 14,
-    "probabilidad_campeon": 1.4,
-    "elo": 1249,
-    "bandera": "🇳🇬"
+    "seleccion": "Uzbekistan",
+    "victorias": 18,
+    "probabilidad_campeon": 1.8,
+    "elo": 1243,
+    "bandera": "🇺🇿"
+  },
+  {
+    "seleccion": "Colombia",
+    "victorias": 17,
+    "probabilidad_campeon": 1.7,
+    "elo": 1398,
+    "bandera": "🇨🇴"
+  },
+  {
+    "seleccion": "Ghana",
+    "victorias": 16,
+    "probabilidad_campeon": 1.6,
+    "elo": 1062,
+    "bandera": "🇬🇭"
+  },
+  {
+    "seleccion": "Ivory Coast",
+    "victorias": 16,
+    "probabilidad_campeon": 1.6,
+    "elo": 1279,
+    "bandera": "🇨🇮"
   },
   {
     "seleccion": "United States",
-    "victorias": 13,
-    "probabilidad_campeon": 1.3,
+    "victorias": 16,
+    "probabilidad_campeon": 1.6,
     "elo": 1302,
     "bandera": "🇺🇸"
   },
   {
     "seleccion": "Denmark",
-    "victorias": 13,
-    "probabilidad_campeon": 1.3,
+    "victorias": 15,
+    "probabilidad_campeon": 1.5,
     "elo": 1307,
     "bandera": "🇩🇰"
   },
   {
-    "seleccion": "Czech Republic",
-    "victorias": 13,
-    "probabilidad_campeon": 1.3,
-    "elo": 1212,
-    "bandera": "🇨🇿"
+    "seleccion": "Nigeria",
+    "victorias": 15,
+    "probabilidad_campeon": 1.5,
+    "elo": 1249,
+    "bandera": "🇳🇬"
   },
   {
     "seleccion": "Cameroon",
-    "victorias": 12,
-    "probabilidad_campeon": 1.2,
+    "victorias": 13,
+    "probabilidad_campeon": 1.3,
     "elo": 1160,
     "bandera": "🇨🇲"
   },
   {
-    "seleccion": "Uzbekistan",
-    "victorias": 11,
-    "probabilidad_campeon": 1.1,
-    "elo": 1243,
-    "bandera": "🇺🇿"
+    "seleccion": "Switzerland",
+    "victorias": 13,
+    "probabilidad_campeon": 1.3,
+    "elo": 1297,
+    "bandera": "🇨🇭"
   },
   {
-    "seleccion": "South Korea",
-    "victorias": 10,
-    "probabilidad_campeon": 1.0,
-    "elo": 1321,
-    "bandera": "🇰🇷"
+    "seleccion": "Canada",
+    "victorias": 12,
+    "probabilidad_campeon": 1.2,
+    "elo": 1285,
+    "bandera": "🇨🇦"
   },
   {
-    "seleccion": "Sweden",
-    "victorias": 10,
-    "probabilidad_campeon": 1.0,
-    "elo": 1214,
-    "bandera": "🇸🇪"
+    "seleccion": "Czech Republic",
+    "victorias": 9,
+    "probabilidad_campeon": 0.9,
+    "elo": 1212,
+    "bandera": "🇨🇿"
+  },
+  {
+    "seleccion": "Uruguay",
+    "victorias": 8,
+    "probabilidad_campeon": 0.8,
+    "elo": 1315,
+    "bandera": "🇺🇾"
   },
   {
     "seleccion": "Jordan",
@@ -224,25 +224,39 @@
     "bandera": "🇯🇴"
   },
   {
-    "seleccion": "Greece",
+    "seleccion": "Sweden",
     "victorias": 8,
     "probabilidad_campeon": 0.8,
+    "elo": 1214,
+    "bandera": "🇸🇪"
+  },
+  {
+    "seleccion": "Greece",
+    "victorias": 7,
+    "probabilidad_campeon": 0.7,
     "elo": 1186,
     "bandera": "🇬🇷"
   },
   {
-    "seleccion": "Chile",
-    "victorias": 7,
-    "probabilidad_campeon": 0.7,
-    "elo": 1210,
-    "bandera": "🇨🇱"
-  },
-  {
-    "seleccion": "Ghana",
+    "seleccion": "Guatemala",
     "victorias": 6,
     "probabilidad_campeon": 0.6,
-    "elo": 1062,
-    "bandera": "🇬🇭"
+    "elo": 1071,
+    "bandera": "🇬🇹"
+  },
+  {
+    "seleccion": "Saudi Arabia",
+    "victorias": 5,
+    "probabilidad_campeon": 0.5,
+    "elo": 1162,
+    "bandera": "🇸🇦"
+  },
+  {
+    "seleccion": "Turkey",
+    "victorias": 5,
+    "probabilidad_campeon": 0.5,
+    "elo": 1303,
+    "bandera": "🇹🇷"
   },
   {
     "seleccion": "Iraq",
@@ -252,53 +266,32 @@
     "bandera": "🇮🇶"
   },
   {
-    "seleccion": "Guatemala",
-    "victorias": 5,
-    "probabilidad_campeon": 0.5,
-    "elo": 1071,
-    "bandera": "🇬🇹"
-  },
-  {
-    "seleccion": "Kuwait",
-    "victorias": 5,
-    "probabilidad_campeon": 0.5,
-    "elo": 1002,
-    "bandera": "🇰🇼"
-  },
-  {
-    "seleccion": "Venezuela",
+    "seleccion": "Peru",
     "victorias": 4,
     "probabilidad_campeon": 0.4,
-    "elo": 1212,
-    "bandera": "🇻🇪"
-  },
-  {
-    "seleccion": "Turkey",
-    "victorias": 3,
-    "probabilidad_campeon": 0.3,
-    "elo": 1303,
-    "bandera": "🇹🇷"
-  },
-  {
-    "seleccion": "New Zealand",
-    "victorias": 3,
-    "probabilidad_campeon": 0.3,
-    "elo": 1117,
-    "bandera": "🇳🇿"
-  },
-  {
-    "seleccion": "Peru",
-    "victorias": 3,
-    "probabilidad_campeon": 0.3,
     "elo": 1162,
     "bandera": "🇵🇪"
   },
   {
-    "seleccion": "Saudi Arabia",
+    "seleccion": "Ecuador",
+    "victorias": 4,
+    "probabilidad_campeon": 0.4,
+    "elo": 1342,
+    "bandera": "🇪🇨"
+  },
+  {
+    "seleccion": "New Zealand",
+    "victorias": 4,
+    "probabilidad_campeon": 0.4,
+    "elo": 1117,
+    "bandera": "🇳🇿"
+  },
+  {
+    "seleccion": "Kuwait",
     "victorias": 3,
     "probabilidad_campeon": 0.3,
-    "elo": 1162,
-    "bandera": "🇸🇦"
+    "elo": 1002,
+    "bandera": "🇰🇼"
   },
   {
     "seleccion": "Panama",
@@ -306,5 +299,19 @@
     "probabilidad_campeon": 0.2,
     "elo": 1212,
     "bandera": "🇵🇦"
+  },
+  {
+    "seleccion": "Venezuela",
+    "victorias": 2,
+    "probabilidad_campeon": 0.2,
+    "elo": 1212,
+    "bandera": "🇻🇪"
+  },
+  {
+    "seleccion": "Chile",
+    "victorias": 2,
+    "probabilidad_campeon": 0.2,
+    "elo": 1210,
+    "bandera": "🇨🇱"
   }
 ]
